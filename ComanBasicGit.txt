@@ -1,0 +1,38 @@
+my rep: https://github.com/AmandaZaine/learn-git-and-github.git
+
+Comandos básicos:
+
+cd nomedapasta >> serve para entrar em uma pasta
+
+cd local1/local2/local3 >> serve para entra na pasta desejada com apenas um comando
+
+cd ..  >> serve para sair de uma pasta
+
+clear  >> limpar comandos da tela
+
+git init >> cria um repositório na pasta atual da sua localização atual de acordo com o terminal
+
+git status >> status atual do seu repositório
+
+git add nomedoarquivo.suaextensao >> adiciona o arquivo no seu controle de versao
+
+git add *.txt  >> adiciona todos os arquivos txt
+
+git add .  >> adiciona todos os arquivos que estiverem no seu diretório
+
+git add *.extensao  >> adiona todos os arquivos de uma determinada extensão
+
+git add >> sai do work directory e vai/passa os arquivos para as "staging area"
+
+git commit -m "Mensagem de identificação do commit"  >>  tira da staging area e manda para repositorio // commit=salvar
+
+   >> Working directory: local onde voce adiciona novos arquivos ou edita arquivos existentes
+
+   >> Staging area: local para onde os arquivos vao quando usa-se o comando git add
+
+   >> Repositorio: local para onde vai os arquivos quando voce usa o comando git commit // quando termina o trabalho
+
+.gitignore  >>  nome de arquivo que o git ignora
+
+
+
