@@ -34,5 +34,8 @@ git commit -m "Mensagem de identificação do commit"  >>  tira da staging area 
 
 .gitignore  >>  nome de arquivo que o git ignora
 
+git commit -a -m "Mensagem de identificação do commit"   >>  pula a etada do git add e vai direto para o git commit
+
+
 
 
