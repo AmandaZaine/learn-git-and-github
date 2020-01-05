@@ -8,9 +8,11 @@ cd local1/local2/local3 >> serve para entra na pasta desejada com apenas um coma
 
 cd ..  >> serve para sair de uma pasta
 
+ls  >> serve para ver oque tem dentro da pasta
+
 clear  >> limpar comandos da tela
 
-git init >> cria um repositório na pasta atual da sua localização atual de acordo com o terminal
+git init >> cria um repositório na pasta atual da sua localização atual de acordo com o terminal  //
 
 git status >> status atual do seu repositório
 
@@ -20,11 +22,13 @@ git add *.txt  >> adiciona todos os arquivos txt
 
 git add .  >> adiciona todos os arquivos que estiverem no seu diretório
 
-git add *.extensao  >> adiona todos os arquivos de uma determinada extensão
+git add *.extensao  >> adiciona todos os arquivos de uma determinada extensão
+
+git add -A  >> adiciona todos os arquivos que tem na pasta e atualiza o repositório
 
 git add >> sai do work directory e vai/passa os arquivos para as "staging area"
 
-git commit -m "Mensagem de identificação do commit"  >>  tira da staging area e manda para repositorio // commit=salvar
+git commit -m "Mensagem de identificação do commit"  >>  tira da staging area e manda para repositorio // commit=salvar  // congela uma determinada versão do código
 
    >> Working directory: local onde voce adiciona novos arquivos ou edita arquivos existentes
 
@@ -36,6 +40,10 @@ git commit -m "Mensagem de identificação do commit"  >>  tira da staging area 
 
 git commit -a -m "Mensagem de identificação do commit"   >>  pula a etada do git add e vai direto para o git commit
 
+git remote add origin linkdogithub  >>  define para onde estamos enviando o código
 
+git push -u origin master  >>  envia para o github
+
+git push  >> salva as atualizações no github
 
 
