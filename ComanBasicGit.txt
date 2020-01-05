@@ -46,4 +46,27 @@ git push -u origin master  >>  envia para o github
 
 git push  >> salva as atualizações no github
 
+~~ Comandos da aula 3 ~~
+
+git diff  >> para consultar todas as informações do seu arquivo que está no seu diretorio mas ainda nao foi adicionado para a staging area 
+
+git add . >> adiciona o arquivo na staging area
+
+git diff --staged  >>  para saber oque está na staging area e que vai ser enviado para o proximo commit
+
+git log  >>  mostra todos os commits que foram feitos
+
+git log -p  >> mostra informações detalhadas dos commits
+
+q   >>  volta para o terminal
+
+git log -p -n  >> mostra committs especificos // n = numeros de commits que voce quer que apareça
+
+gitk  >> gera relatório com todas as modificações/alterações
+
+
+
+
+
+
 
