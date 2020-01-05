@@ -64,7 +64,7 @@ git log -p -n  >> mostra committs especificos // n = numeros de commits que voce
 
 gitk  >> gera relatório com todas as modificações/alterações
 
-
+ 
 
 
 
