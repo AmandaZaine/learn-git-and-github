@@ -2,3 +2,4 @@ Hi, my name is Amanda.
 I am student of programming.
 I live in Brazil.
 I love music.
+I love eat pizza.
