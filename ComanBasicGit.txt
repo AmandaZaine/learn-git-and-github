@@ -64,7 +64,20 @@ git log -p -n  >> mostra committs especificos // n = numeros de commits que voce
 
 gitk  >> gera relatório com todas as modificações/alterações
 
- 
+~~ Comandos Aula 4  ~~
+
+git log --pretty=oneline  >>  serve para mostrar somente o código de cada commit e a mensagem desse commit
+
+git add .   >   git commit --amend -m "Mensagem de indentificaçao do commit"     >>  edita o commit mais recente que foi feito
+
+git reset HEAD nomedoarquivo.suaextensao  >>  para retirar um arquivo da staging area
+
+git checkout -- nomedoarquivo.suaextensão   >>  para descartar as mudanças do seu diretório de trabalho // o arquivo volta ao estado inicial do ultimo commit que voce estava trabalhando
+
+git rm nomedoarquivo.suaextensão  >>  para remover do repositório arquivos que foram deletados
+
+
+
 
 
 
