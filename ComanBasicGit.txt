@@ -6,9 +6,9 @@ cd nomedapasta >> serve para entrar em uma pasta
 
 cd local1/local2/local3 >> serve para entra na pasta desejada com apenas um comando
 
-cd ..  >> serve para sair de uma pasta
+cd ..  >> serve para sair de uma pasta/”volta para pasta anterior”
 
-ls  >> serve para ver oque tem dentro da pasta
+ls  >> serve para ver oque tem dentro da pasta/”mostra para onde pode ir”
 
 clear  >> limpar comandos da tela
 
@@ -42,7 +42,8 @@ git commit -a -m "Mensagem de identificação do commit"   >>  pula a etada do g
 
 git remote add origin linkdogithub  >>  define para onde estamos enviando o código
 
-git push -u origin master  >>  envia para o github
+git push -u origin master  >>  envia para o github/envia alteração para repositorio remoto
+
 
 git push  >> salva as atualizações no github
 
@@ -54,7 +55,7 @@ git add . >> adiciona o arquivo na staging area
 
 git diff --staged  >>  para saber oque está na staging area e que vai ser enviado para o proximo commit
 
-git log  >>  mostra todos os commits que foram feitos
+git log  >>  mostra todos os commits que foram feitos/ historico de commit
 
 git log -p  >> mostra informações detalhadas dos commits
 
@@ -76,10 +77,34 @@ git checkout -- nomedoarquivo.suaextensão   >>  para descartar as mudanças do 
 
 git rm nomedoarquivo.suaextensão  >>  para remover do repositório arquivos que foram deletados
 
+pwd >> mostra em que pasta que terminal GitBash “está”
 
+tab >> faz autocomplite
 
+mkdir nomePastaNova  >> Cria uma pasta nova no local que o terminal “está”
 
+touch >> cria arquivo novo dentro da pasta que o terminal “está”
 
+open >> abre arquivo que esta dentro da pasta que o terminal “está”
 
+code .   >> abre o visual code na pasta q vc esta com os arquivos que tem dentro
 
+rmdir NomeDasPastas >> q quer deletar/remove diretorio em branco
 
+rm nomeDoArquvio >> deleta arquivo especifico
+
+rm -r nomeDaPasta >> q quer deletar, pasta q tem arquivo dentro
+
+cp >> copiar arquivo 
+
+mv  >> mover arquivo
+
+quit ou exit >> sai do GitBash
+
+git –help >> ver comandos do GitBash
+
+git –version
+
+git checkout >> apaga modificações no arquivo
+
+git pull >> pega infos do rep online e envia para rep local no computador
