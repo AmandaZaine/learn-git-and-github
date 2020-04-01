@@ -108,3 +108,5 @@ git –version
 git checkout >> apaga modificações no arquivo
 
 git pull >> pega infos do rep online e envia para rep local no computador
+
+npm start  >> Abrir arquivo pelo GitBash
