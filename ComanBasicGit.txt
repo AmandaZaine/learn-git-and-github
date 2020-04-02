@@ -113,4 +113,9 @@ npm start  >> Abrir arquivo pelo GitBash
 
 npm install
 
+cat .git/config
+
+git log
+
+
 
