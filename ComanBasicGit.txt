@@ -142,3 +142,7 @@ npm install
 npm start
 
 npm run test
+
+git pull upstream master
+
+git pull origin master
