@@ -103,7 +103,7 @@ quit ou exit >> sai do GitBash
 
 git –help >> ver comandos do GitBash
 
-git –version
+git –version     //  git --version
 
 git checkout >> apaga modificações no arquivo
 
@@ -117,5 +117,28 @@ cat .git/config
 
 git log
 
+git pull upstream master
 
+git remote add upstream  ""
 
+git push origin master
+ 
+git merge
+
+git pull
+
+git remote -v
+
+git clone linkPegoNoCloneOrDownloadNoGitHub
+
+node -v
+
+npm -v
+
+node
+
+npm install
+
+npm start
+
+npm run test
