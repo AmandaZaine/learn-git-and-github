@@ -146,3 +146,11 @@ npm run test
 git pull upstream master
 
 git pull origin master
+
+git push origin nomedabranch
+
+git pull upstream nomeDaBranch
+
+git pull upstream master
+
+git merge
