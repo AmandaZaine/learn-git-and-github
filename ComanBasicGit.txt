@@ -151,6 +151,8 @@ git push origin nomedabranch
 
 git pull upstream nomeDaBranch
 
-git pull upstream master
-
 git merge
+
+git restore .
+
+git checkout -b nomeDaBranch
