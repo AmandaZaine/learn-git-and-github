@@ -156,3 +156,13 @@ git merge
 git restore .
 
 git checkout -b nomeDaBranch
+
+npm init
+
+npm install eslint
+
+npm install --save-dev jest
+
+--save-dev jest
+
+
