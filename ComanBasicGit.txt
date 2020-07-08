@@ -165,4 +165,18 @@ npm install --save-dev jest
 
 --save-dev jest
 
+// Comando de NPM IMPORTANTES
+npm init
+npm init -y
+npm i eslint
+npm install jest --save-dev
+npm run eslint
+eslint index.js
+cat package.json
+git config --list
+npm install eslint
+_________________
+npm init -y
+npm install jsdom
+
 
