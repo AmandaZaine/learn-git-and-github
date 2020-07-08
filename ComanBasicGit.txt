@@ -179,4 +179,9 @@ _________________
 npm init -y
 npm install jsdom
 
+// Comando para executar Node.js
+node .
+node NomeDoArquivoQueQuerExecutar
+
+
 
