@@ -171,6 +171,8 @@ npm init -y
 npm i eslint
 npm install jest --save-dev
 npm run eslint
+npm link
+npm unlink
 eslint index.js
 cat package.json
 git config --list
