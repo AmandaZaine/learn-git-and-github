@@ -179,9 +179,11 @@ eslint index.js
 cat package.json
 git config --list
 npm install eslint
+npm i firebase
 _________________
 npm init -y
 npm install jsdom
+npm install
 
 // Comando para executar Node.js
 node .
