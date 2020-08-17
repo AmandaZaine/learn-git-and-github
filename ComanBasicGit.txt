@@ -117,6 +117,8 @@ cat .git/config
 
 git log
 
+git log --oneline  >> Ver commit anteriores em forma de lista
+
 git pull upstream master
 
 git remote add upstream  ""
