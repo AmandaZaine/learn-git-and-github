@@ -1,6 +1,6 @@
-my rep: https://github.com/AmandaZaine/learn-git-and-github.git
+my repo: https://github.com/AmandaZaine/learn-git-and-github.git
 
-Comandos básicos:
+Basic commands used by me
 
 cd nomedapasta >> serve para entrar em uma pasta
 
@@ -43,7 +43,6 @@ git commit -a -m "Mensagem de identificação do commit"   >>  pula a etada do g
 git remote add origin linkdogithub  >>  define para onde estamos enviando o código
 
 git push -u origin master  >>  envia para o github/envia alteração para repositorio remoto
-
 
 git push  >> salva as atualizações no github
 
@@ -109,10 +108,6 @@ git checkout >> apaga modificações no arquivo
 
 git pull >> pega infos do rep online e envia para rep local no computador
 
-npm start  >> Abrir arquivo pelo GitBash
-
-npm install
-
 cat .git/config
 
 git log
@@ -134,8 +129,6 @@ git remote -v
 git clone linkPegoNoCloneOrDownloadNoGitHub
 
 node -v
-
-npm -v
 
 node
 
@@ -161,35 +154,6 @@ git restore .
 
 git checkout -b nomeDaBranch
 
-npm init
+node .   >>  Comando para executar Node.js
 
-npm install eslint
-
-npm install --save-dev jest
-
---save-dev jest
-
-// Comando de NPM IMPORTANTES
-npm init
-npm init -y
-npm i eslint
-npm install jest --save-dev
-npm run eslint
-npm link
-npm unlink
-eslint index.js
-cat package.json
-git config --list
-npm install eslint
-npm i firebase
-_________________
-npm init -y
-npm install jsdom
-npm install
-
-// Comando para executar Node.js
-node .
 node NomeDoArquivoQueQuerExecutar
-
-
-
