@@ -157,3 +157,34 @@ git checkout -b nomeDaBranch
 node .   >>  Comando para executar Node.js
 
 node NomeDoArquivoQueQuerExecutar
+
+repositório original é chamado de remoto, com o nome "origem"
+
+git request-pull -p nomeDaBranch"mestre"NoRemotoDe"origem" .   >>  enviar uma solicitação de pull pelo Git
+
+step 1: git remote  >>  configura o repositório do outro desenvolvedor como um remoto 
+step 2: git pull  >> usará o remoto do step 1 para pulls e solicitações de pull
+
+git pull = git fetch + git merge
+
+git config user.name "nome"
+git config user.email "email"
+
+repositório simples  >> repositório que não tem uma árvore de trabalho, e tem  um nome que termina com .git
+
+git init --bare  >>  criar um repositório simples no diretório compartilhado
+
+git remote add origin ../nomeDoRepo  >>  configurar um remoto de "origem"
+
+git branch --set-upstream-to origin/master  >>  informar o Git de qual branch ele deverá controlar
+
+git remote set-url origin ../Shared.git  >>  alterar "origem" para que ele aponte para o repositório compartilhado
+
+git stash >>  salva o estado da árvore de trabalho e do índice fazendo alguns commits temporários
+
+
+
+
+
+
+
