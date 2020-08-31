@@ -119,8 +119,6 @@ git pull upstream master
 git remote add upstream  ""
 
 git push origin master
- 
-git merge
 
 git pull
 
@@ -148,11 +146,13 @@ git pull upstream nomeDaBranch
 
 git pull origin nomeDaBranch
 
-git merge
+git merge nomeDaBranchQueDesejaSeMergear  >>  (tem que estar em uma branch já) Faz o merge da branch que o usuário está dentro do GitBash com a branch que o usuário informa no comando
 
 git restore .
 
-git checkout -b nomeDaBranch
+git checkout -b nomeDaBranch  >> Cria uma nova branch com nome desejado pelo usuario
+
+git branch nomeDaBranchNova   >> Também cria nova branch
 
 node .   >>  Comando para executar Node.js
 
@@ -182,9 +182,8 @@ git remote set-url origin ../Shared.git  >>  alterar "origem" para que ele apont
 
 git stash >>  salva o estado da árvore de trabalho e do índice fazendo alguns commits temporários
 
+git checkout nomeDaBranch >> Vai para a branch desejada atraves da inserção do nome da branch desejada no comando
 
+git merge --ff-only nomeDaBranchQueDesejaMergear   >>  Um tipo de merge (mesclagem de avanço rápido) que só ocorre se a branch em que o usuario esta/ou a branch master não sofreu alteracao
 
-
-
-
-
+git merge --abort >> Usado para restaurar o "mestre" para o que era antes da tentativa de mesclagem
