@@ -40,7 +40,9 @@ git commit -m "Mensagem de identificação do commit"  >>  tira da staging area 
 
 git commit -a -m "Mensagem de identificação do commit"   >>  pula a etada do git add e vai direto para o git commit
 
-git remote add origin linkdogithub  >>  define para onde estamos enviando o código
+git remote add origin linkdogithub  >>  define para onde estamos enviando o código // conecta meu repo a um servidor remoto
+
+git remote rm origin    >>   remove a origem do repo remoto
 
 git push -u origin master  >>  envia para o github/envia alteração para repositorio remoto
 
@@ -50,7 +52,7 @@ git push  >> salva as atualizações no github
 
 git diff  >> para consultar todas as informações do seu arquivo que está no seu diretorio mas ainda nao foi adicionado para a staging area 
 
-git add . >> adiciona o arquivo na staging area
+git add . >> adiciona o arquivo na staging area // começa a monitorar os arquivos no repo do GitHub
 
 git diff --staged  >>  para saber oque está na staging area e que vai ser enviado para o proximo commit
 
