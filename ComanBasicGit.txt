@@ -152,9 +152,15 @@ git merge nomeDaBranchQueDesejaSeMergear  >>  (tem que estar em uma branch já) 
 
 git restore .
 
+git branch nomeDaBranchNova   >> Também cria nova branch
+
+git branch  >>  mostra todas as branchs criadas
+
 git checkout -b nomeDaBranch  >> Cria uma nova branch com nome desejado pelo usuario
 
-git branch nomeDaBranchNova   >> Também cria nova branch
+git checkout nomeDaBranch >> Vai para a branch desejada atraves da inserção do nome da branch desejada no comando
+
+git branch -D nomeDaBranch  >>  Deleta a branch que é informada no comando (Obs.: Tem que quer dela para poder apagar)
 
 node .   >>  Comando para executar Node.js
 
@@ -183,8 +189,6 @@ git branch --set-upstream-to origin/master  >>  informar o Git de qual branch el
 git remote set-url origin ../Shared.git  >>  alterar "origem" para que ele aponte para o repositório compartilhado
 
 git stash >>  salva o estado da árvore de trabalho e do índice fazendo alguns commits temporários
-
-git checkout nomeDaBranch >> Vai para a branch desejada atraves da inserção do nome da branch desejada no comando
 
 git merge --ff-only nomeDaBranchQueDesejaMergear   >>  Um tipo de merge (mesclagem de avanço rápido) que só ocorre se a branch em que o usuario esta/ou a branch master não sofreu alteracao
 
