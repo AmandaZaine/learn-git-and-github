@@ -124,7 +124,9 @@ git push origin master
 
 git pull
 
-git remote -v
+git remote   >>  para ver um repo remoto
+
+git remote -v   >>  mostra todos os repos remotos listados, com até a URL do repo
 
 git clone linkPegoNoCloneOrDownloadNoGitHub
 
@@ -193,3 +195,17 @@ git stash >>  salva o estado da árvore de trabalho e do índice fazendo alguns 
 git merge --ff-only nomeDaBranchQueDesejaMergear   >>  Um tipo de merge (mesclagem de avanço rápido) que só ocorre se a branch em que o usuario esta/ou a branch master não sofreu alteracao
 
 git merge --abort >> Usado para restaurar o "mestre" para o que era antes da tentativa de mesclagem
+
+deploy  >>  colocar projeto em produção
+
+git rebase nomeDoArquivo  >>   p/ juntar arquivos de duas branches sem gerar um novo evento
+
+git log --stat    >>   serve para consultar commits e suas estatisticas abreviadas
+
+git tag 'inserirUmTexto'   >>   serve para marcar compromissos especificos
+
+git config --global user.name "seuNome"
+git config --global user.email "seuEmail"
+
+git commit --amend   >>  para editar a mensagem do ultimo commit
+
