@@ -118,7 +118,7 @@ git log --oneline  >> Ver commit anteriores em forma de lista
 
 git pull upstream master
 
-git remote add upstream  ""
+git remote add upstream  URLdoRepo    >>   adicionando um remoto upstream com a URL fornecida
 
 git push origin master
 
