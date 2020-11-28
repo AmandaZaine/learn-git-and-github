@@ -52,6 +52,8 @@ git push  >> salva as atualizações no github
 
 git diff  >> para consultar todas as informações do seu arquivo que está no seu diretorio mas ainda nao foi adicionado para a staging area 
 
+git diff nomeDoArquivo    >>   Para ver as modificações feitas num arq.
+
 git add . >> adiciona o arquivo na staging area // começa a monitorar os arquivos no repo do GitHub
 
 git diff --staged  >>  para saber oque está na staging area e que vai ser enviado para o proximo commit
@@ -112,11 +114,11 @@ git pull >> pega infos do rep online e envia para rep local no computador
 
 cat .git/config
 
-git log
-
 git log --oneline  >> Ver commit anteriores em forma de lista
 
 git pull upstream master
+
+git remote   >>   Para ver qual é o repo remoto
 
 git remote add upstream  URLdoRepo    >>   adicionando um remoto upstream com a URL fornecida
 
@@ -152,6 +154,8 @@ git pull origin nomeDaBranch
 
 git merge nomeDaBranchQueDesejaSeMergear  >>  (tem que estar em uma branch já) Faz o merge da branch que o usuário está dentro do GitBash com a branch que o usuário informa no comando
 
+git merge nomeDaBranchQueDesejaSeMergear -m "mensagemAoFazerMerge"
+
 git restore .
 
 git branch nomeDaBranchNova   >> Também cria nova branch
@@ -160,9 +164,9 @@ git branch  >>  mostra todas as branchs criadas
 
 git checkout -b nomeDaBranch  >> Cria uma nova branch com nome desejado pelo usuario
 
-git checkout nomeDaBranch >> Vai para a branch desejada atraves da inserção do nome da branch desejada no comando
+git checkout nomeDaBranch OU nome da Tag>> Vai para a branch desejada atraves da inserção do nome da branch desejada no comando
 
-git branch -D nomeDaBranch  >>  Deleta a branch que é informada no comando (Obs.: Tem que quer dela para poder apagar)
+git branch -d nomeDaBranch  >>  Deleta a branch que é informada no comando (Obs.: Tem que quer dela para poder apagar)
 
 node .   >>  Comando para executar Node.js
 
@@ -202,7 +206,15 @@ git rebase nomeDoArquivo  >>   p/ juntar arquivos de duas branches sem gerar um 
 
 git log --stat    >>   serve para consultar commits e suas estatisticas abreviadas
 
+git tag  >>  Mostra as tags criadas
+
+git tag -d nomeDaTag >> Deleta a tag
+
+git show nomeDaTag  >>  Detalhes da Tag
+
 git tag 'inserirUmTexto'   >>   serve para marcar compromissos especificos
+
+git tag -a nomeDaTag -m "mensagemDaTag"   >>  Cria um Tag Anotada
 
 git config --global user.name "seuNome"
 git config --global user.email "seuEmail"
