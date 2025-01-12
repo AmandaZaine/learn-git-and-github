@@ -74,8 +74,6 @@ git log --pretty=oneline  >>  serve para mostrar somente o código de cada commi
 
 git add .   >   git commit --amend -m "Mensagem de indentificaçao do commit"     >>  edita o commit mais recente que foi feito
 
-git reset HEAD nomedoarquivo.suaextensao  >>  para retirar um arquivo da staging area
-
 git checkout -- nomedoarquivo.suaextensão   >>  para descartar as mudanças do seu diretório de trabalho // o arquivo volta ao estado inicial do ultimo commit que voce estava trabalhando
 
 git rm nomedoarquivo.suaextensão  >>  para remover do repositório arquivos que foram deletados
@@ -157,6 +155,9 @@ git merge nomeDaBranchQueDesejaSeMergear  >>  (tem que estar em uma branch já) 
 git merge nomeDaBranchQueDesejaSeMergear -m "mensagemAoFazerMerge"
 
 git restore .
+git restore --staged <nome-do-arquivo>    >>  Remove o arquivo da staging area, desfazendo o comando git add que foi executado anteriormente
+git reset HEAD nomedoarquivo.suaextensao  >>  para retirar um arquivo da staging area
+git reset <nome-do-arquivo>               >>  Remove o arquivo da staging area sem perder as alterações feitas no arquivo
 
 git branch nomeDaBranchNova   >> Também cria nova branch
 
