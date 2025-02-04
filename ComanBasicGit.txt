@@ -74,7 +74,8 @@ git log --pretty=oneline  >>  serve para mostrar somente o código de cada commi
 
 git add .   >   git commit --amend -m "Mensagem de indentificaçao do commit"     >>  edita o commit mais recente que foi feito
 
-git checkout -- nomedoarquivo.suaextensão   >>  para descartar as mudanças do seu diretório de trabalho // o arquivo volta ao estado inicial do ultimo commit que voce estava trabalhando
+git checkout nomedoarquivo.suaextensão >> descarta as mudanças num arquivo, o arquivo volta ao estado inicial do ultimo commit (só funciona antes do arquivo ser adicionado com o git add)
+git checkout . >> descarta todas as mudanças
 
 git rm nomedoarquivo.suaextensão  >>  para remover do repositório arquivos que foram deletados
 
@@ -106,8 +107,6 @@ git –help >> ver comandos do GitBash
 
 git –version     //  git --version
 
-git checkout >> apaga modificações no arquivo
-
 git pull >> pega infos do rep online e envia para rep local no computador
 
 cat .git/config
@@ -129,16 +128,6 @@ git remote   >>  para ver um repo remoto
 git remote -v   >>  mostra todos os repos remotos listados, com até a URL do repo
 
 git clone linkPegoNoCloneOrDownloadNoGitHub
-
-node -v
-
-node
-
-npm install
-
-npm start
-
-npm run test
 
 git pull upstream master
 
@@ -169,10 +158,6 @@ git checkout nomeDaBranch OU nome da Tag>> Vai para a branch desejada atraves da
 
 git branch -d nomeDaBranch  >>  Deleta a branch que é informada no comando (Obs.: Tem que quer dela para poder apagar)
 
-node .   >>  Comando para executar Node.js
-
-node NomeDoArquivoQueQuerExecutar
-
 repositório original é chamado de remoto, com o nome "origem"
 
 git request-pull -p nomeDaBranch"mestre"NoRemotoDe"origem" .   >>  enviar uma solicitação de pull pelo Git
@@ -181,9 +166,6 @@ step 1: git remote  >>  configura o repositório do outro desenvolvedor como um 
 step 2: git pull  >> usará o remoto do step 1 para pulls e solicitações de pull
 
 git pull = git fetch + git merge
-
-git config user.name "nome"
-git config user.email "email"
 
 repositório simples  >> repositório que não tem uma árvore de trabalho, e tem  um nome que termina com .git
 
@@ -201,8 +183,6 @@ git merge --ff-only nomeDaBranchQueDesejaMergear   >>  Um tipo de merge (mesclag
 
 git merge --abort >> Usado para restaurar o "mestre" para o que era antes da tentativa de mesclagem
 
-deploy  >>  colocar projeto em produção
-
 git rebase nomeDoArquivo  >>   p/ juntar arquivos de duas branches sem gerar um novo evento
 
 git log --stat    >>   serve para consultar commits e suas estatisticas abreviadas
@@ -219,6 +199,9 @@ git tag -a nomeDaTag -m "mensagemDaTag"   >>  Cria um Tag Anotada
 
 git config --global user.name "seuNome"
 git config --global user.email "seuEmail"
+git config --global credential.helper wincred >> Armazena as credenciais do usuário e não pede mais o login e senha 
 
 git commit --amend   >>  para editar a mensagem do ultimo commit
 
+git ignore >> Lista todos os arquivos e padrões que estão fora do versionamento
+git ignore "*.txt" >> Remove todos os arquivos *.txt do versionamento
