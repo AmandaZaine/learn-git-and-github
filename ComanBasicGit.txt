@@ -72,7 +72,9 @@ gitk  >> gera relatório com todas as modificações/alterações
 
 git log --pretty=oneline  >>  serve para mostrar somente o código de cada commit e a mensagem desse commit
 
-git add .   >   git commit --amend -m "Mensagem de indentificaçao do commit"     >>  edita o commit mais recente que foi feito
+git add .
+
+git commit --amend -m "Nova mensagem do commit" -> git push --force  >> alterar o comentário (mensagem) do último commit quando o commit já foi enviado para um repositório remoto
 
 git checkout nomedoarquivo.suaextensão >> descarta as mudanças num arquivo, o arquivo volta ao estado inicial do ultimo commit (só funciona antes do arquivo ser adicionado com o git add)
 git checkout . >> descarta todas as mudanças
